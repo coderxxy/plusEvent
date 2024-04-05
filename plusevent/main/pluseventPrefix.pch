@@ -1,0 +1,14 @@
+//
+//  pluseventPrefix.pch
+//  plusevent
+//
+//  Created by coderXY on 2024/3/30.
+//
+
+#ifndef pluseventPrefix_pch
+#define pluseventPrefix_pch
+
+#import "Macro.h"
+#import "VendorHeaders.h"
+
+#endif /* pluseventPrefix_pch */

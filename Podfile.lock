@@ -1,0 +1,99 @@
+PODS:
+  - BGFMDB (2.0.13):
+    - BGFMDB/BG (= 2.0.13)
+    - BGFMDB/FMDB (= 2.0.13)
+  - BGFMDB/BG (2.0.13):
+    - BGFMDB/FMDB
+  - BGFMDB/FMDB (2.0.13)
+  - BRPickerView (2.8.1):
+    - BRPickerView/AddressPickerView (= 2.8.1)
+    - BRPickerView/Base (= 2.8.1)
+    - BRPickerView/DatePickerView (= 2.8.1)
+    - BRPickerView/StringPickerView (= 2.8.1)
+  - BRPickerView/AddressPickerView (2.8.1):
+    - BRPickerView/Base
+  - BRPickerView/Base (2.8.1)
+  - BRPickerView/DatePickerView (2.8.1):
+    - BRPickerView/Base
+  - BRPickerView/StringPickerView (2.8.1):
+    - BRPickerView/Base
+  - DZNEmptyDataSet (1.8.1)
+  - FSCalendar (2.8.4)
+  - IQKeyboardManager (6.5.18)
+  - JhtFloatingBall (1.0.3)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MMDrawerController (0.5.7):
+    - MMDrawerController/Core (= 0.5.7)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.5.7)
+    - MMDrawerController/MMDrawerVisualStates (= 0.5.7)
+    - MMDrawerController/Subclass (= 0.5.7)
+  - MMDrawerController/Core (0.5.7)
+  - MMDrawerController/MMDrawerBarButtonItem (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.5.7):
+    - MMDrawerController/Core
+  - SVProgressHUD (2.2.5)
+  - TYAlertController (1.2.0)
+  - XYUIKit (0.0.1)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - BGFMDB
+  - BRPickerView
+  - DZNEmptyDataSet
+  - FSCalendar
+  - IQKeyboardManager
+  - JhtFloatingBall
+  - Masonry
+  - MBProgressHUD
+  - MMDrawerController (~> 0.5.7)
+  - SVProgressHUD
+  - TYAlertController
+  - XYUIKit (from `https://gitlab.com/coderJerry/XYUIKit.git`)
+  - YYText
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - BGFMDB
+    - BRPickerView
+    - DZNEmptyDataSet
+    - FSCalendar
+    - IQKeyboardManager
+    - JhtFloatingBall
+    - Masonry
+    - MBProgressHUD
+    - MMDrawerController
+    - SVProgressHUD
+    - TYAlertController
+    - YYText
+
+EXTERNAL SOURCES:
+  XYUIKit:
+    :git: https://gitlab.com/coderJerry/XYUIKit.git
+
+CHECKOUT OPTIONS:
+  XYUIKit:
+    :commit: 84115a5435f2a2f624c4fdb76692de4dca4feb08
+    :git: https://gitlab.com/coderJerry/XYUIKit.git
+
+SPEC CHECKSUMS:
+  BGFMDB: 48e6823027232402a678acc7f71484b1fc9171d0
+  BRPickerView: 2531a2d4d0fea0b57a1c738de215af0f88863a2f
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FSCalendar: 2d1d0d9398f12d439f55c1fe0f01525b151b8260
+  IQKeyboardManager: 67f92bb29b650c094c40bd11c0545b47bdd25c5b
+  JhtFloatingBall: 5a8d8fe6d331cd763eab5c2e81daa6fdaa89fd36
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MMDrawerController: 7a4cf8e25596bf2434e03ce50d22a8608ddee6a1
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TYAlertController: c121090edb0bea7426f987da94cdddd81eef4231
+  XYUIKit: 7ebf4e9e09672063a3740dbae7e7f01790a81f4c
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 5922d68e538815167cc6189f945a9f81880ca2e6
+
+COCOAPODS: 1.11.3

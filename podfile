@@ -1,0 +1,55 @@
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+
+platform :ios, '11.0'    # Xcode13建议适配从iOS9.0开始
+inhibit_all_warnings!     # 忽略第三方开源框架中的语法警告
+install!'cocoapods',:deterministic_uuids=>false  # 禁止重生成UUID
+use_frameworks!
+
+#use_modular_headers! #FirebaseCoreInternal需要模块化头文件
+#xcodeproj 'XWorld.xcodeproj'
+target 'plusevent'do
+
+pod 'IQKeyboardManager'
+pod 'Masonry'                       # UI布局
+pod 'BGFMDB'                        # 数据库FMDB工具
+pod 'MBProgressHUD'
+pod 'FSCalendar'                    # 日历插件
+pod 'BRPickerView'
+pod 'JhtFloatingBall'
+pod 'XYUIKit', :git=>'https://gitlab.com/coderJerry/XYUIKit.git'#, :branch => 'master'
+pod 'YYText'                        # 富文本
+pod 'MMDrawerController', '~> 0.5.7'
+pod 'SVProgressHUD'                 # HUD提示框
+pod 'TYAlertController'
+pod 'DZNEmptyDataSet'
+#pod 'MJRefresh'                     # 列表刷新
+#pod 'MJExtension'                   # 数据转模型
+#pod 'YYCache'                       # 数据缓存
+#pod 'HBDNavigationBar'              # 导航栏
+#pod 'ZZCircleProgress'              # 圆形进度条
+
+# 此脚本为了解决工程targer版本，和pod资源库要求版本不一致
+#  post_install do |installer|
+#    installer.pods_project.targets.each do |target|
+#      target.build_configurations.each do |config|
+#        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '11.0'
+#      end
+#    end
+#  end
+#  post_install do |installer|
+#    installer.pods_project.targets.each do |target|
+#      target.build_configurations.each do |config|
+#        deployment_target = config.build_settings['IPHONEOS_DEPLOYMENT_TARGET']
+#        if !deployment_target.nil? && !deployment_target.empty? && deployment_target.to_f < 11.0
+#          config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '11.0'
+#        end
+#      end
+#    end
+#  end
+#
+#静态库、动态库脚步
+#  pre_install do |installer|
+#  #Pod::Installer::Xcode::TargetValidator.send(:define_method, :verify_no_static_framework_transit#ive_dependencies) {}
+#  end
+
+end
